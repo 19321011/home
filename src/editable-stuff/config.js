@@ -13,23 +13,23 @@ const mainBody = {
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/19321011",
     },
     {
       image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
+      url: "https://www.facebook.com/Fathur.nabilaholic.JKT48/",
     },
     {
       image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://www.instagram.com/pucukedelweiss/",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/fathurhidayanto/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/imnotSt4rdust",
     },
   ],
 };
@@ -37,25 +37,25 @@ const mainBody = {
 // ABOUT SECTION
 // If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
 //a) your Instagram username
-//      i.e:profilePictureLink:"johnDoe123",
+//      i.e:profilePictureLink:"pucukedelweiss",
 //b) a link to an hosted image
-//      i.e:profilePictureLink:"www.picturesonline.com/johnDoeFancyAvatar.jpg",
+//      i.e:profilePictureLink:"https://photos.app.goo.gl/jbtnkNTbEvtcUs899",
 //c) image in "editable-stuff" directory and use require("") to import here,
-//      i.e: profilePictureLink: require("../editable-stuff/hashirshoaeb.png"),
+//      i.e: profilePictureLink: require("../editable-stuff/pucukedelweiss.jpg"),
 //d) If you do not want any picture to be displayed, just leave it empty :)
 //      i.e: profilePictureLink: "",
 // For Resume either provide link to your resume or import from "editable-stuff" directory
-//     i.e resume: require("../editable-stuff/resume.pdf"),
-//         resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+//     i.e resume: require("../editable-stuff/Resume.pdf"),
+//         resume: "https://docs.google.com/document/d/1S_D9uc9TtLgP6IEfsmphw91YWaJx2RnCNlHuzCW6eGM/edit?usp=sharing",
 
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/pucukedekweiss.jpg"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "Perkenalkan nama saya Fathur Hidayanto. Saya adalah mahasiswa Ilmu Komunikasi Universitas Islam Indonesia. Saya memiliki pengalaman di bidang fotografi dan videografi.",
+  resume: "https://docs.google.com/document/d/1S_D9uc9TtLgP6IEfsmphw91YWaJx2RnCNlHuzCW6eGM/edit?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -66,7 +66,7 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "19321011", //i.e."Pucukedelweiss"
   reposLength: 4,
   specificRepos: [],
 };
@@ -100,14 +100,11 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "Photography", value: 90 },
+    { name: "Videography", value: 80 },
+    { name: "Adobe Lightroom", value: 85 },
+    { name: "Adobe Photoshop", value: 70 },
+    { name: "Adobe Premiere", value: 80 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
@@ -116,8 +113,8 @@ const skills = {
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Organization", value: 80 },
+    { name: "Creativity", value: 85 },
   ],
 };
 
@@ -126,8 +123,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "Saat ini saya sedang mencari peluang Digital Kreatif atau Desain Grafis paruh waktu! Jika Anda mengetahui posisi yang tersedia, jika Anda memiliki pertanyaan, atau jika Anda hanya ingin menyapa, silakan email saya di",
+  email: "faturh43@gmail.com",
 };
 
 const experiences = {
